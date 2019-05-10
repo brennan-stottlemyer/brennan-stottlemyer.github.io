@@ -1,0 +1,35 @@
+.body {
+    background: gainsboro
+}
+
+.navbar {
+    background: white
+}
+
+.navbar-top {
+    background: lightseagreen
+}
+
+.content {
+    background: gainsboro
+}
+
+.summary-content {
+    background: white
+}
+
+.summary-title {
+    color: lightseagreen
+}
+
+.visualization-content {
+    background: white
+}
+
+.visualization-text {
+    color: lightseagreen
+}
+
+.fixed-bottom {
+    border-top-color: lightseagreen
+}
