@@ -45,4 +45,7 @@
     overflow-x: auto;
     display: inline-block
 }
-    
+
+.fixed-bottom {
+    border-top: 10px solid lightseagreen!important;
+}
