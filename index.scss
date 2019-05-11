@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
 .body {
     background: gainsboro
 }
@@ -34,15 +38,12 @@
     color: lightseagreen
 }
 
-@media (max-width: 768px) {
-    .space {
-        border-top: 1px solid lightgray;
-        padding: 2em
-    }
+.fixed-bottom {
+    border-top-color: lightseagreen
 }
 
-.table {
-    overflow-x: auto;
-    display: inline-block
+.graph {
+    @include media-breakpoint-up(sm) {
+        border-top: 1px solid black
+    }
 }
-    

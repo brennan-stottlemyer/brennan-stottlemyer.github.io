@@ -18,6 +18,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 
+
     <link rel="stylesheet"
           href="index.css">
 </head>
@@ -25,7 +26,7 @@
 <body class="body">
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-top navbar-brand text-white p-2"
-           href="#">Latitude & Weather Visualization Dashboard</a>
+           href="index.html">Latitude & Weather Visualization Dashboard</a>
         <button class="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
@@ -51,13 +52,13 @@
                     <div class="dropdown-menu text-secondary"
                          aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item"
-                           href="max_temperature.html">Max Temperature</a>
+                           href="#">Max Temperature</a>
                         <a class="dropdown-item"
                            href="humidity.html">Humidity</a>
                         <a class="dropdown-item"
                            href="cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item"
-                           href="wind_speed.html">Wind Speed</a>
+                        href="wind_speed.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -75,19 +76,16 @@
     <div class="content"></div>
     <div class="row justify-content-lg-center justify-content-sm-center">
         <div class="summary-content col-lg-7 col-sm-11 pt-5">
-            <h1 class="summary-title"> Summary: Latitude vs. X</h1>
+            <h1 class="summary-title"> Max Temperature</h1>
             <div>
                 <hr>
             </div>
             <img src="Resources/assets/images/Fig1.png"
-                 class="col-lg-5 rounded float-left">
-            <p>The purpose of this project was to utilize Matplotlib to visualize how latitude affects weather. In
-                order to assemble a dataset, I used the OpenWeatherMap API to pull data on over 500 random cities.
-            </p>
-            <p>I subsequently used Matplotlib to plot various aspects of the weather vs.
-                latitude, including temperature, cloudiness, wind speed, and humidity. This
-                site provides the source data and visualizations I created as part of the analysis, as well as
-                explanations and descriptions of any trends and correlations witnessed. This data was gathered on April 6th, 2019.</p>
+                 class="col-lg-12 rounded">
+            <div><br></div>
+            <p>As expected, as you approach closer to the equator (0 Deg. Latitude), the temperature becomes significantly warmer.
+                Additionally, according to our data, the southern hemisphere tends to be warmer this time of
+                year than the northern hemisphere. There is also a much broader range of temperatures for cities in the northern hemisphere.</p>
         </div>
         <div class="col-lg-auto"><br></div>
 
@@ -95,19 +93,19 @@
             <h2 class="visualization-text"> Visualizations</h2>
             <div>
                 <hr><br></div>
-            <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png"
-                     class="col-lg-6 col-sm-3 rounded float-left"></a>
+            <a href="#"><img src="Resources/assets/images/Fig1.png"
+                class="col-lg-6 col-sm-3 rounded float-left"></a>
             <a href="humidity.html"><img src="Resources/assets/images/Fig2.png"
-                     class="col-lg-6 col-sm-3 rounded float-left"></a>
+                class="col-lg-6 col-sm-3 rounded float-left"></a>
             <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png"
-                     class="col-lg-6 col-sm-3 rounded float-left"></a>
-            <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png"
-                     class="col-lg-6 col-sm-3 rounded float-left"></a>
+                class="col-lg-6 col-sm-3 rounded float-left"></a>
+            <a href ="wind_speed.html"><img src="Resources/assets/images/Fig4.png"
+                class="col-lg-6 col-sm-3 rounded float-left"></a>
         </div>
     </div>
     <div><br><br><br><br></div>
     <nav class="navbar fixed-bottom bg-dark border-top">
-        <a class="navbar-bottom navbar-brand"
+        <a class="navbar-bottom navbar-brand text-white"
            href="#"></a>
     </nav>
 </body>
