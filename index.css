@@ -1,14 +1,29 @@
+@media (max-width: 992px) {
+    button.navbar-toggler{
+        border:1px solid white;
+        color: white
+    }
+}
+
 .body {
     background: gainsboro
 }
 
-.navbar {
-    background: white
+@media (max-width: 992px) {
+    .navbar-top {
+        background-color: lightseagreen!important
+    }
 }
 
-.navbar-top {
-    background: lightseagreen
+@media (min-width: 992px) {
+    .navbar {
+        background: white
+    }
 }
+
+.navbar-brand { 
+    background-color: lightseagreen!important
+} 
 
 .text-center {
     color: lightseagreen
@@ -48,4 +63,8 @@
 
 .fixed-bottom {
     border-top: 10px solid lightseagreen!important;
+}
+
+.navbar-collapse {
+    background-color:white
 }
